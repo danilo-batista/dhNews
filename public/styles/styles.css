@@ -1,11 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
 * {
     box-sizing: border-box;
+    font-family: "Rajdhani", sans-serif;
 }
 
-@media(min-width: 460px) {
-    /* Tablets */
+body {
+    width: 800px;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
-@media(min-width: 768px) {
-    /* Laptop */
+h1 {
+    margin-bottom: 0px;
+    font-size: 3rem;
+    color: #EC183F;
+}
+
+main {
+    padding-bottom: 48px;
+}
+
+.header__date {
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.news__description {
+    margin-bottom: 16px;
+}
+
+strong {
+    margin-left: 0px;
+}
+
+.news__img {
+    width: 100%;
+}
+
+footer {
+    height: 72px;
+}
+
+.social {
+    padding-left: 0px;
+    list-style: none;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+.social__listIcon {
+    display: inline-block;
+}
+
+.social__icon {
+    height: 40px;
+    margin: 8px;
+}
+
+.credit {
+    text-align: center;
+    font-size: small;
+    font-weight: 500;
+    color: lightslategrey;
+}
+
+.credit a {
+    text-decoration: none;
+    color: slategrey;
 }
