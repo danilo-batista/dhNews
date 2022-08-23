@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+@media(min-width: 460px) {
+    /* Tablets */
+}
+
+@media(min-width: 768px) {
+    /* Laptop */
+}
